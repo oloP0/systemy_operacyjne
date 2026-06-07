@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Windows logo">
+  <defs>
+    <linearGradient id="gWin" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#00ADEF"/>
+      <stop offset="100%" stop-color="#0078D7"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="24" fill="#0f172a"/>
+  <rect x="18" y="18" width="92" height="92" rx="18" fill="url(#gWin)"/>
+  <g fill="#fff" opacity="0.95">
+    <rect x="32" y="32" width="18" height="18" rx="4"/>
+    <rect x="55" y="32" width="18" height="18" rx="4"/>
+    <rect x="78" y="32" width="18" height="18" rx="4"/>
+    <rect x="32" y="55" width="18" height="18" rx="4"/>
+    <rect x="55" y="55" width="18" height="18" rx="4"/>
+    <rect x="78" y="55" width="18" height="18" rx="4"/>
+    <rect x="32" y="78" width="18" height="18" rx="4"/>
+    <rect x="55" y="78" width="18" height="18" rx="4"/>
+    <rect x="78" y="78" width="18" height="18" rx="4"/>
+  </g>
+</svg>
