@@ -1,6 +1,4 @@
-/* =========================
-   RESET
-========================= */
+
 
 *{
     margin:0;
@@ -19,9 +17,6 @@ body{
     line-height:1.8;
 }
 
-/* =========================
-   NAVBAR
-========================= */
 
 .navbar{
     display:flex;
@@ -58,9 +53,6 @@ body{
     color:#58a6ff;
 }
 
-/* =========================
-   HERO
-========================= */
 
 .hero{
     min-height:90vh;
@@ -113,9 +105,6 @@ body{
     background:#1f6feb;
 }
 
-/* =========================
-   SEKCJE
-========================= */
 
 section{
     padding:80px 10%;
@@ -133,9 +122,6 @@ section h2{
     font-size:2.5rem;
 }
 
-/* =========================
-   KARTY
-========================= */
 
 .cards{
     display:grid;
@@ -176,9 +162,6 @@ section h2{
     font-weight:600;
 }
 
-/* =========================
-   STATYSTYKI
-========================= */
 
 .stats{
     background:#161b22;
@@ -210,9 +193,6 @@ section h2{
     font-size:2rem;
 }
 
-/* =========================
-   SYSTEM CARDS
-========================= */
 
 .systems-grid{
     display:grid;
@@ -251,9 +231,6 @@ section h2{
     margin-bottom:15px;
 }
 
-/* =========================
-   TABELA
-========================= */
 
 table{
     width:100%;
@@ -277,9 +254,6 @@ table tr:nth-child(even){
     background:#161b22;
 }
 
-/* =========================
-   TIMELINE
-========================= */
 
 .timeline{
     max-width:1000px;
@@ -302,10 +276,6 @@ table tr:nth-child(even){
     color:#58a6ff;
     margin-bottom:10px;
 }
-
-/* =========================
-   FUNKCJE
-========================= */
 
 .feature-grid{
     display:grid;
@@ -331,9 +301,6 @@ table tr:nth-child(even){
     margin-bottom:10px;
 }
 
-/* =========================
-   QUIZ
-========================= */
 
 .quiz-container{
     max-width:980px;
@@ -487,9 +454,6 @@ table tr:nth-child(even){
     }
 }
 
-/* =========================
-   CYTAT
-========================= */
 
 .quote{
     text-align:center;
@@ -504,9 +468,6 @@ blockquote{
     margin:auto;
 }
 
-/* =========================
-   GALERIA
-========================= */
 
 .gallery{
     display:grid;
@@ -534,9 +495,6 @@ img, svg{
     transform:scale(1.03);
 }
 
-/* =========================
-   STOPKA
-========================= */
 
 footer{
     background:#161b22;
@@ -553,9 +511,6 @@ footer{
     margin-bottom:15px;
 }
 
-/* =========================
-   LISTA DYSTRYBUCJI
-========================= */
 
 .os-list{
     display:grid;
@@ -581,9 +536,6 @@ footer{
     margin-bottom:10px;
 }
 
-/* =========================
-   RESPONSYWNOŚĆ
-========================= */
 
 @media(max-width:900px){
 
