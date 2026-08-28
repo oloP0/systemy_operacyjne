@@ -56,12 +56,10 @@ const questions = [
     }
 ];
 
-// ===== STATE =====
 let current = 0;
 let score = 0;
 let selected = null;
 
-// ===== ELEMENTS =====
 const questionEl = document.getElementById("question");
 const answersEl = document.getElementById("answers");
 const nextBtn = document.getElementById("nextBtn");
@@ -69,10 +67,8 @@ const progress = document.getElementById("progress");
 const questionNumber = document.getElementById("questionNumber");
 const resultBox = document.getElementById("result");
 
-// ===== START =====
 loadQuestion();
 
-// ===== LOAD QUESTION =====
 function loadQuestion() {
 
     selected = null;
@@ -109,7 +105,6 @@ function loadQuestion() {
     updateProgress();
 }
 
-// ===== NEXT =====
 nextBtn.addEventListener("click", () => {
 
     if (selected === questions[current].correct) {
@@ -125,14 +120,12 @@ nextBtn.addEventListener("click", () => {
     }
 });
 
-// ===== PROGRESS =====
 function updateProgress() {
 
     const percent = ((current + 1) / questions.length) * 100;
     progress.style.width = percent + "%";
 }
 
-// ===== RESULT =====
 function showResult() {
 
     const percent = Math.round((score / questions.length) * 100);
